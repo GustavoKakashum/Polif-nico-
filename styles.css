@@ -1,0 +1,42 @@
+body {
+  background: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', sans-serif;
+}
+header, section, footer {
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.4s ease;
+}
+header:hover, section:hover {
+  transform: scale(1.01);
+}
+.btn-outline-light {
+  border-color: #00ffcc;
+  color: #00ffcc;
+}
+.btn-outline-light:hover {
+  background-color: #00ffcc;
+  color: #121212;
+  box-shadow: 0 0 10px #00ffccaa;
+}
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffccaa;
+}
+a {
+  color: #00ffcc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #00ffee;
+  text-shadow: 0 0 6px #00ffee;
+}
